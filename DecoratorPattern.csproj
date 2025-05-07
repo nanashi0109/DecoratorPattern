@@ -152,8 +152,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Tools\DrawStrategies.cs" />
+    <Compile Include="CustomTurtle\ATurtle.cs" />
+    <Compile Include="CustomTurtle\DrawStrategies\HexagonStrategy.cs" />
+    <Compile Include="CustomTurtle\ColorDecorator.cs" />
+    <Compile Include="CustomTurtle\CustomTurtle.cs" />
+    <Compile Include="CustomTurtle\DrawStrategies\IDrawStrategy.cs" />
+    <Compile Include="CustomTurtle\DrawStrategies\SquareStrategy.cs" />
+    <Compile Include="CustomTurtle\DrawStrategies\TriangleStrategy.cs" />
+    <Compile Include="Core\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CustomTurtle\TurtleDecorator.cs" />
+    <Compile Include="CustomTurtle\WidthDecorator.cs" />
+    <Compile Include="Tools\Constants.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
